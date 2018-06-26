@@ -1,0 +1,16 @@
+version: '3.2'
+services:
+    ether-ip:
+        image: lnlscon/ether-ip:latest
+        hostname: ether-ip
+        dns:
+            - 10.0.0.71
+            - 10.0.0.72
+        ports:
+            - "25:25"
+        deploy:
+            resources:
+              limits:
+                cpus: "2"
+                memory: 1024M
+
