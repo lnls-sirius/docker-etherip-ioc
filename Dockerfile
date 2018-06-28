@@ -32,7 +32,7 @@ COPY scripts/* ${IOC_FOLDER}/build/scripts/
 RUN ${IOC_FOLDER}/build/scripts/init.sh
 
 # Clone and configure stream ioc
-RUN ${IOC_FOLDER}/build/scripts/stream-ioc.sh
+RUN ${IOC_FOLDER}/build/scripts/etherip-ioc.sh
 
 # Run ioc
 CMD ["sh", "-c", ${IOC_FOLDER}/build/scripts/ioc.sh]
