@@ -29,6 +29,8 @@ RUN mkdir -p ${IOC_FOLDER}/build/scripts/
 # Copy all files
 COPY scripts/* ${IOC_FOLDER}/build/scripts/
 
+ENV EPICS_BASE /opt/epics/base-3.14.12.6
+
 # Exec main files
 RUN ${IOC_FOLDER}/build/scripts/init.sh
 
