@@ -18,6 +18,7 @@ ENV IOC_FOLDER /opt/ether-ip
 ENV IOC_VERSION ether-ip-1.0
 ENV EPICS_BASE /opt/epics/base-3.14.12.6
 ENV ASYN /opt/epics/base-3.14.12.6/modules/asyn4-33
+ENV EPICS_HOST_ARCH linux-x86_64
 
 # Create folders
 RUN mkdir -p ${IOC_FOLDER}/${IOC_VERSION}/scripts

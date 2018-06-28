@@ -10,7 +10,7 @@ cd /opt
 
 git clone --recursive --branch=${GITHUB_STREAM_BRANCH} ${GITHUB_STREAM_REPO}
 
-export EPICS_BASE_RELEASE=/opt/epics/base-3.15.5
+export EPICS_BASE_RELEASE=/opt/epics/base-3.14.12.6
 export EPICS_VER=master
 
 cd etherip-ioc
