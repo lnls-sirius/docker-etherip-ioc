@@ -1,5 +1,5 @@
+#!/bin/bash
 # This init file install all req. softwares to Docker system
-
 ${IOC_FOLDER}/build/scripts/upgrade-apt-get.sh
 #${IOC_FOLDER}/build/scripts/asynDriver.sh
 ${IOC_FOLDER}/build/scripts/python.sh

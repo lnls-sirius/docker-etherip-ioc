@@ -22,7 +22,7 @@ The 'ioc.sh' file on /scripts is responsible for running ioc within the Git stre
 ```
 /opt/etherip-ioc
 ```
-EPICS base 3-15-5 is installed in the folder:
+EPICS base 3-14 is installed in the folder:
 
 ```
 /opt/epics/base-3.14
@@ -31,6 +31,6 @@ EPICS base 3-15-5 is installed in the folder:
 After adding the files to be executed in 'ioc.sh' just give a build of the image of the container and then a run using the following domains:
 
 ```
-* sudo ./build-docker-rad-ioc.sh
-* sudo ./run-docker-rad-ioc.sh
+* sudo ./build-docker-etherip.sh
+* sudo ./run-docker-etherip.sh
 ```

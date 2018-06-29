@@ -1,3 +1,4 @@
+#!/bin/bash
 apt-get -y install python3-pip
 export EPICS_HOST_ARCH=linux-x86_64
 pip3 install matplotlib numpy
