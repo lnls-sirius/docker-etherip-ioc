@@ -3,4 +3,6 @@
 
 cd /opt/etherip-ioc/iocBoot
 sleep 3
-./st.cmd.host
+procServ --chdir /opt/etherip-ioc/iocBoot 20499 ./st.cmd.host
+tail -f /dev/null
+

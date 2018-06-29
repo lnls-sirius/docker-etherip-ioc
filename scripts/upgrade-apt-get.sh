@@ -4,6 +4,6 @@ apt-get -y upgrade
 apt-get -y dist-upgrade
 apt-get -y autoremove
 apt-get clean
-apt-get -y install build-essential git python3 nano
+apt-get -y install build-essential git python3 nano procserv
 
 echo Apt-Get OK

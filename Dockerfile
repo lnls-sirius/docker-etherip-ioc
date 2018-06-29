@@ -38,4 +38,4 @@ RUN ${IOC_FOLDER}/build/scripts/init.sh
 RUN ${IOC_FOLDER}/build/scripts/etherip-ioc.sh
 
 # Run ioc
-CMD ["sh", "-c", ${IOC_FOLDER}/build/scripts/ioc.sh]
+CMD ["sh", "-c", "${IOC_FOLDER}/build/scripts/ioc.sh"]
