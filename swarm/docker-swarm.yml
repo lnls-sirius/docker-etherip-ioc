@@ -6,11 +6,16 @@ services:
         dns:
             - 10.0.0.71
             - 10.0.0.72
-        ports:
-            - "20499:20499"
         deploy:
             resources:
               limits:
                 cpus: "2"
                 memory: 1024M
 
+        networks: 
+            - outside
+
+networks:
+  outside:
+    external:
+      name: "host"
